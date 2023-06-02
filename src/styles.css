@@ -14,32 +14,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid black 1px;
-  height: 40px;
-  width: 100px;
-  margin-right: 20px;
+  background-color: #7bceff;
+  height: 60px;
+  width: 150px;
+  margin-right: 10px;
   border-radius: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background-color: #13a9ff;
 }
 
 .tab-row {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  width: 800px;
+  overflow: auto;
 }
 
 .card {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 200px;
-  height: 130px;
-  border: solid red 1px;
+  width: 240px;
+  height: 135px;
   border-radius: 20px;
+  background-size: cover;
 }
 
 .card-row {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  width: 830px;
+  width: 800px;
+  overflow: auto;
 }
