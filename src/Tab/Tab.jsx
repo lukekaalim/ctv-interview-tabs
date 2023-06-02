@@ -1,8 +1,5 @@
-import React from 'react'
+import React from "react";
 
-
-export function Tab({title}) {
-    return (<div className='tab'>
-        Tab {title}
-    </div>)
+export function Tab({ title, index }) {
+  return <div className="tab">{title}</div>;
 }
