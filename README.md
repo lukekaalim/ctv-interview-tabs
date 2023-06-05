@@ -7,7 +7,7 @@ This README would normally document whatever steps are necessary to get your app
 * This is a React based exercise for potential candidates for the CTV team.
 * It is a simplified version of our `<TabbedGrid>` component
   
-## Prompts for the Intervieww
+## Prompts for the Interview
 
 * Our team has built all of the separate pieces we need to put together our new `<TabbedGrid>` component
 * This is plain React, all of the styling has been done for you
