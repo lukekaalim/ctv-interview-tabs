@@ -46,9 +46,7 @@ body {
 }
 
 .card-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   gap: 20px;
-  width: 800px;
-  overflow: auto;
+  grid-template-columns: repeat(4, 1fr);
 }
